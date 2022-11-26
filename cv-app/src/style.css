@@ -1,0 +1,61 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#personal{
+    display: grid;
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#education{
+    display: grid;
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#experience{
+    display: grid;
+    grid-column-start:2 ;
+    grid-column-end:2 ;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#cv--personal{
+    display: grid;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#cv--education{
+    display: grid;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#cv--experience{
+    display: grid;
+    grid-column-start:1 ;
+    grid-column-end:1 ;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.vis{
+    display: grid;
+}
+.hid{
+    display: none;
+}
+

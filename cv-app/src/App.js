@@ -1,11 +1,23 @@
+import  React, {Component} from 'react'
+import CvForm from "./components/cv-form.js";
+import "./style.css"
 
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends Component {
+    constructor(){
+      super()
+
+    }
+    render(){
+      return (
+        <div className="App">
+          
+          <CvForm />
+          
+
+        </div>
+      );
+    }
 }
 
 export default App;
